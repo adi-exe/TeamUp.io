@@ -5,7 +5,7 @@ export default function Header() {
     const { account } = api()
 
     const handleGitHubLogin = () => {
-        account.createOAuth2Session('github', 'https://teamup.vercel.app/')
+        account.createOAuth2Session('github', 'https://teamup-beta.vercel.app/')
     }
 
     return (
