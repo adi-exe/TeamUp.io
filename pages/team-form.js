@@ -36,7 +36,7 @@ const Form = () => {
     }, [])
 
     function SubmitForm(e) {
-        if(Description.length<50){
+        if(Description.length<20){
             alert("Whoa! Your description is like a teaser trailer. 🍿 How about spicing it up with a bit more about the incredible person you are?")
             return;
         }
