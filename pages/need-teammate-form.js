@@ -36,7 +36,7 @@ const Form = () => {
     }, [])
 
     async function SubmitForm(e) {
-        if(teamDescription.length<50){
+        if(teamDescription.length<10){
             alert("Team description is a bit short. Share a bit more about your awesome team!");
             return;
         }
