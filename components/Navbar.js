@@ -35,7 +35,7 @@ export default function Navbar({ documents }) {
     const handleGitHubLogin = () => {
         account.createOAuth2Session(
             'github',
-            'https://teamup.vercel.app/choices'
+            'https://teamup-beta.vercel.app/choices'
         )
     }
 
